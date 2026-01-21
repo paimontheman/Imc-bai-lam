@@ -7,37 +7,6 @@
 }
 
 
-.fadeIn {
-    animation: fadeIn 2s ease-in forwards;
-}
-@keyframes fadeIn {
-    from { opacity: 0; }
-    to { opacity: 1; }
-}
-
-
-.fadeOut {
-    animation: fadeOut 2s ease-out forwards; 
-}
-@keyframes fadeOut {
-    from { opacity: 1; } 
-    to { opacity: 0; }   
-}
-
-
-.move {
-    animation: move 2s ease-out forwards; 
-}
-@keyframes move {
-    from {
-        transform: translateX(-200px) translateY(0); 
-        opacity: 0;
-    }
-    to {
-        transform: translateX(0) translateY(0);
-        opacity: 1;
-    }
-}
 .btn-hover {
     background-color: blue;      
     color: orangered;                 
@@ -219,4 +188,5 @@
     transform: translateY(-10px); 
  
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2); 
+
 }
